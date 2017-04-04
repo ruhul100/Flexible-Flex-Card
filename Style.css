@@ -1,0 +1,45 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+            
+.flexible-flex-card {
+    width: 700px;
+    margin: auto;
+}
+            
+.flexible-flex-card--title {
+    margin: 30px 0px;
+}
+
+.flexible-flex-card--divider {
+    height: 1px;
+    background: #DDD;
+    margin: 20px 0px;
+}
+            
+.flexible-flex-card--columns {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+            
+.flexible-flex-card--pin {
+    background-color: #dddddd;
+    min-width: 200px;
+    margin: 0px 15px 15px 0px;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+            
+.flexible-flex-card--pin-title {
+    background-color: #006FC4;
+    color: #fff;
+    padding: 10px 20px;
+}
+            
+.flexible-flex-card--pin-body {
+    padding: 10px 20px;
+}
